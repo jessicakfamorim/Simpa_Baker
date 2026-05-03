@@ -16,7 +16,7 @@ body {
   background-size: cover; /* cobre toda a tela */
   background-position: center; /* centraliza */
   background-repeat: no-repeat; /* não repete */
-  background-attachment: fixed; /* efeito bonito */
+  background-attachment: fixed; 
   overflow-y: scroll;
 }
 
@@ -389,5 +389,44 @@ main {
 .card:hover {
   transform: translateY(-5px) scale(1.02);
   box-shadow: 0 10px 20px rgba(237, 188, 183, 0.25);
+}
+
+/*  BOTÕES  */
+
+.btn-simpa {
+  background-color: var(--rosa);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
   transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-simpa:hover {
+  background-color: var(--marrom);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(237, 188, 183, 0.3);
+}
+
+/* ==== RECEITA DA SEMANA ==== */
+
+/*  HERO  */
+
+.hero-receita {
+  background: url("../Imagens/Cards/cupcakes.jpg") center/cover no-repeat;
+  min-height: 300px;
+  position: relative;
+}
+
+.hero-receita::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(159, 124, 96, 0.6); /* teu marrom */
+}
+
+.hero-receita .container {
+  position: relative;
+  z-index: 1;
 }

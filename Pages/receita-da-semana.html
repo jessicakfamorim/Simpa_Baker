@@ -51,7 +51,7 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="sobre_nos.html">Sobre</a>
+                            <a class="nav-link" href="sobre_nos.html">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="receitas.html">Receitas</a>
@@ -60,7 +60,7 @@
                             <a class="nav-link" href="videos.html">Tutoriais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="receita-da-semana.html">Receita da semana</a>
+                            <a class="nav-link active" href="receita-da-semana.html">Receita da semana</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contactos.html">Contacto</a>
@@ -77,79 +77,94 @@
 
     <main>
 
-        <section class="sobre-hero container">
-            <div class="sobre-texto">
-                <h1>O meu livro de receitas <em>especiais</em></h1>
-                <p>Este é o meu cantinho doce, onde guardo e partilho receitas que fazem parte da minha história, aquelas que marcaram momentos especiais e que continuam a trazer conforto em cada preparo.</p>
-                <p>Simples, prático e sempre disponível.</p>
-                <a href="receitas.html" class="btn btn-simpa" style="margin-top:1rem;">Ver Receitas</a>
-            </div>
-            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Baker" />
-        </section>
+        <!-- HERO -->
 
-        <!-- VALORES -->
-        <section class="valores">
-            <h2>Os Nossos Valores</h2>
-            <div class="divider"></div>
-            <div class="valores-grid">
-                <div class="valor-card">
-                    <div class="valor-icon"><i class="fa-solid fa-heart"></i></div>
-                    <h3>Com Amor</h3>
-                    <p>Cada receita é testada com cuidado e partilhada com genuíno afeto.</p>
-                </div>
-                <div class="valor-card">
-                    <div class="valor-icon"><i class="fa-solid fa-seedling"></i></div>
-                    <h3>Ingredientes Simples</h3>
-                    <p>Valorizamos o uso de produtos naturais e locais.</p>
-                </div>
-                <div class="valor-card">
-                    <div class="valor-icon"><i class="fa-solid fa-users"></i></div>
-                    <h3>Comunidade</h3>
-                    <p>Queremos criar uma comunidade calorosa onde todos aprendem e se inspiram mutuamente.</p>
-                </div>
+        <div class="hero-receita text-center text-white d-flex align-items-center">
+            <div class="container">
+                <h1 class="display-5">Receita da Semana</h1>
+                <p class="lead">Uma receita especial para adoçar a sua semana</p>
             </div>
-        </section>
+        </div>
 
-        <!-- NÚMEROS -->
-        <section class="numeros">
-            <div class="numeros-grid">
-                <div class="numero-item">
-                    <h3>120+</h3>
-                    <p>Receitas publicadas</p>
+        <section class="container my-5">
+            <div class="row align-items-center">
+
+                <!-- IMAGEM -->
+                <div class="col-md-6">
+                    <img src="../Assets/Imagens/Receitas/bolo-chocolate.jpg" class="img-fluid rounded" alt="">
                 </div>
-                <div class="numero-item">
-                    <h3>50k</h3>
-                    <p>Seguidores</p>
+
+                <!-- TEXTO -->
+                <div class="col-md-6">
+                    <h2>Bolo de Chocolate</h2>
+                    <p>Uma receita simples, perfeita para qualquer ocasião.</p>
+
+                    <ul>
+                        <li>⏱ Tempo: 40 min</li>
+                        <li>👩‍🍳 Dificuldade: Fácil</li>
+                        <li>🍰 Porções: 15</li>
+                    </ul>
                 </div>
-                <div class="numero-item">
-                    <h3>30+</h3>
-                    <p>Tutoriais em vídeo</p>
-                </div>
-                <div class="numero-item">
-                    <h3>5★</h3>
-                    <p>Avaliação média</p>
-                </div>
+
             </div>
         </section>
 
-        <!-- EQUIPA -->
-        <section class="equipa container">
-            <h2>A Nossa Equipa</h2>
-            <div class="divider"></div>
-            <div class="equipa-grid">
+        <section class="container my-5">
+            <div class="row">
 
-                <div class="membro">
-                    <img src="../Assets/Imagens/Equipa/jessica.jpg" alt="Jessica" />
-                    <h3>Jessica Amorim</h3>
-                    <span>Chef de Cozinha, Fundadora</span>
+                <!-- INGREDIENTES -->
+                <div class="col-md-6">
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        <li>4 ovos (200g)</li>
+                        <li>200ml de óleo</li>
+                        <li>170ml de leite integral</li>
+                        <li>220g de açúcar</li>
+                        <li>45g de cacau 100%</li>
+                        <li>150g de maça fuji</li>
+                        <li>250g de farinha de trigo</li>
+                        <li>10g de fermento em pó</li>
+                        <li>5g de bicarnonato de sódio</li>
+                    </ul>
                 </div>
-                <div class="membro">
-                    <img src="../Assets/Imagens/Equipa/Luana.jpg" alt="Luana" />
-                    <h3>Luana Valerio</h3>
-                    <span>Criadora de Conteúdo, Fundadora</span>
+
+                <!-- PREPARO -->
+                <div class="col-md-6">
+                    <h3>Modo de Preparo</h3>
+                    <ol>
+                       <li>Pré-aquecer o forno a 180 graus Celsius;</li> 
+                       <li>Bater no liquidificador os ovos, óleo,
+                            açúcar, leite, cacau em pó e a maçã cortada em
+                            pedaços pequenos.
+                            Bata até ficar homogêneo e transfira a mistura
+                            para uma vasilha. Por cima da mistura peneire a
+                            farinha de trigo e mexa delicadamente até
+                            envolver tudo, e por último, acrescente o fermento
+                            em pó e o bicarbonato de sódio;</li>
+                        
+                        <li>Assar por aproximadamente 35 minutos.</li>
+                    </ol>
                 </div>
+
             </div>
         </section>
+
+        <section class="container my-5 text-center">
+            <div class="p-4 rounded" style="background-color: var(--verde);">
+                <h4>Dica</h4>
+                <p>Use cacau de boa qualidade para um sabor mais intenso.</p>
+            </div>
+        </section>
+
+        <section class="text-center my-5">
+            <a href="receitas.html" class="btn-simpa">Ver mais receitas</a>
+        </section>
+
+
+
+
+
+
 
 
     </main>
